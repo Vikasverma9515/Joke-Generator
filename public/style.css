@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+  }
+  h1{
+    color: #373232;
+  }
+  form {
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  form select,
+  form input,
+  form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  form button:hover {
+    background-color: #0056b3;
+  }
+  div p {
+    font-size: 1.2rem;
+    margin: 10px auto;
+    max-width: 600px;
+  }
